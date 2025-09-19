@@ -1,0 +1,14 @@
+{
+  "name": "init-react-project",
+  "version": "1.0.0",
+  "description": "Automated React + TypeScript + Tailwind + shadcn/ui project setup",
+  "bin": {
+    "setup-react": "./setup-react.js"
+  },
+  "files": [
+    "setup-react.js"
+  ],
+  "keywords": ["react", "typescript", "tailwind", "shadcn", "vite"],
+  "author": "Brady Swann",
+  "license": "MIT"
+}
