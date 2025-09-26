@@ -13,19 +13,19 @@ Creates a new React project with:
 - Random emoji favicon (makes it easy to spot in browser tabs)
 - Clean starter app with theme toggle
 
-## Setup on a new computer
+## Setup on a new device
 
-Install globally from GitHub:
+To install globally from GitHub:
 ```bash
 npm install -g git+https://github.com/MrStealYoCurls/init-react-project.git
 ```
 
 ## Usage
 
-From any directory where I want to create a new React project:
+Then from any directory, create a new project with:
 
 ```bash
-setup-react app-name
+setup-react <app-name>
 ```
 
 The script will:
@@ -88,7 +88,7 @@ npx shadcn@latest add dialog toast tabs
 ## Troubleshooting
 
 ### Script fails on npm create vite
-- Make sure you have Node.js installed (18+ recommended)
+- Make sure Node.js is installed (18+ recommended)
 - Check that npm is working: `npm --version`
 
 ### Permission denied on macOS/Linux
@@ -99,13 +99,3 @@ npx shadcn@latest add dialog toast tabs
 - The script tries to copy the next command to clipboard
 - If it fails, it just shows the command to run manually
 - On Linux, make sure you have `xclip` or `xsel` installed
-
-### Path aliases not working in IDE
-- Restart your IDE after project creation
-- VS Code usually picks up the tsconfig.json automatically
-- If imports still don't work, try reloading the window
-
-## Script versions
-
-- `setup-react.sh` - Original bash version (works on macOS/Linux/WSL)
-- `setup-react.js` - Node.js version (works everywhere Node runs)
